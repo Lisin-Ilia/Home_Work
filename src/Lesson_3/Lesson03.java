@@ -1,6 +1,6 @@
 package Lesson_3;
 
-import java.util.Random;
+//import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -10,10 +10,12 @@ import java.util.Scanner;
 
 public class Lesson03 {
 
-    public static Scanner scanner = new Scanner(System.in);
-    public static Random random = new Random();
+//    public static Scanner scanner = new Scanner(System.in);
+//    public static Random random = new Random();
 
     public static void main(String[] args) {
+//        String Container = scanner.next();
+//        System.out.println("hello " + Container);
 
 //        int[] myArrayInt = new int[4];
 //        myArrayInt[0] = 15;
@@ -66,29 +68,29 @@ public class Lesson03 {
 //        welcomeUser("Alex", " Petrovich", 38);
 //        welcomeUser("Alex", 38, " Petrovich");
 
-        int[][] myArrayInt2 = new int[10][10];
-
-        fillArray2(myArrayInt2);
-        readArray2(myArrayInt2);
+//        int[][] myArrayInt2 = new int[10][10];
+//
+//        fillArray2(myArrayInt2);
+//        readArray2(myArrayInt2);
 
     }
 
-    public static void fillArray2(int[][] input) {
-        int count = 0;
-        for (int i = 0; i < input.length; i++) {
-            for (int j = 0; j < input[i].length; j++) {
-                input[i][j] = count;
-                count++;
-            }
-        }
-    }
+//    public static void fillArray2(int[][] input) {
+//        int count = 0;
+//        for (int i = 0; i < input.length; i++) {
+//            for (int j = 0; j < input[i].length; j++) {
+//                input[i][j] = count;
+//                count++;
+//            }
+//        }
+//    }
 
     public static void readArray2(int[][] input) {
         for (int i = 0; i < input.length; i++) {
             for (int j = 0; j < input[i].length; j++) {
                 System.out.print(input[i][j] + "\t");
             }
-            System.out.println();
+            System.out.println(2);
         }
     }
 
